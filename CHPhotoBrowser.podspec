@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = 'CHPhotoBrowser'
-  s.version = '2.1.6'
+  s.version = '2.1.7'
   s.license = 'MIT'
   s.summary = 'A simple iOS photo and video browser with optional grid view, captions and selections.'
   s.description = <<-DESCRIPTION
@@ -28,9 +28,7 @@ Pod::Spec.new do |s|
   }
   s.platform = :ios, '7.0'
   s.source_files = 'Classes/**/*'
-  s.resource_bundles = {
-    'MWPhotoBrowser' => ['Assets/*.png']
-  }
+  s.resources = 'Assets/*.png'
   s.requires_arc = true
 
   s.frameworks = 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MediaPlayer'
