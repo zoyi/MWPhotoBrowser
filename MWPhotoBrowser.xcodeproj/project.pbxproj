@@ -21,7 +21,6 @@
 		227853F01FB0B0FF0026BCF1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655F86B31E7B870D005A7FC2 /* QuartzCore.framework */; };
 		227853F11FB0B0FF0026BCF1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655F86B11E7B8704005A7FC2 /* ImageIO.framework */; };
 		227853F21FB0B0FF0026BCF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655F86AF1E7B86EE005A7FC2 /* Foundation.framework */; };
-		227853F31FB0B0FF0026BCF1 /* libPods-MWPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 994F3744663C3490C4A9E2D0 /* libPods-MWPhotoBrowser.a */; };
 		227853F51FB0B0FF0026BCF1 /* MWZoomingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86731E7B8653005A7FC2 /* MWZoomingScrollView.h */; };
 		227853F61FB0B0FF0026BCF1 /* MWGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86651E7B8653005A7FC2 /* MWGridCell.h */; };
 		227853F71FB0B0FF0026BCF1 /* MWPhotoProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866E1E7B8653005A7FC2 /* MWPhotoProtocol.h */; };
@@ -139,7 +138,6 @@
 		655F86B31E7B870D005A7FC2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		655F86B51E7B8715005A7FC2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		655F86B71E7B871E005A7FC2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		994F3744663C3490C4A9E2D0 /* libPods-MWPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MWPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7DC0F5F8A2B866BBD6AD73 /* Pods-MWPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPhotoBrowser/Pods-MWPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,7 +151,6 @@
 				227853F01FB0B0FF0026BCF1 /* QuartzCore.framework in Frameworks */,
 				227853F11FB0B0FF0026BCF1 /* ImageIO.framework in Frameworks */,
 				227853F21FB0B0FF0026BCF1 /* Foundation.framework in Frameworks */,
-				227853F31FB0B0FF0026BCF1 /* libPods-MWPhotoBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +165,6 @@
 				655F86B31E7B870D005A7FC2 /* QuartzCore.framework */,
 				655F86B11E7B8704005A7FC2 /* ImageIO.framework */,
 				655F86AF1E7B86EE005A7FC2 /* Foundation.framework */,
-				994F3744663C3490C4A9E2D0 /* libPods-MWPhotoBrowser.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
