@@ -382,34 +382,28 @@
 }
 
 - (void)handleDoubleTap:(CGPoint)touchPoint {
-    
     // Dont double tap to zoom if showing a video
     if ([self displayingVideo]) {
         return;
     }
 	
-	// Cancel any single tap handling
-	[NSObject cancelPreviousPerformRequestsWithTarget:_photoBrowser];
+    // Cancel any single tap handling
+    [NSObject cancelPreviousPerformRequestsWithTarget:_photoBrowser];
 	
-	// Zoom
-	if (self.zoomScale != self.minimumZoomScale && self.zoomScale != [self initialZoomScaleWithMinScale]) {
-		
-		// Zoom out
-		[self setZoomScale:self.minimumZoomScale animated:YES];
-		
-	} else {
-		
-		// Zoom in to twice the size
-        CGFloat newZoomScale = ((self.maximumZoomScale + self.minimumZoomScale) / 2);
-        CGFloat xsize = self.bounds.size.width / newZoomScale;
-        CGFloat ysize = self.bounds.size.height / newZoomScale;
-        [self zoomToRect:CGRectMake(touchPoint.x - xsize/2, touchPoint.y - ysize/2, xsize, ysize) animated:YES];
-
-	}
+    // Zoom
+    if (self.zoomScale != self.minimumZoomScale && self.zoomScale != [self initialZoomScaleWithMinScale]) {
+      // Zoom out
+      [self setZoomScale:self.minimumZoomScale animated:YES];
+    } else {
+      // Zoom in to twice the size
+      CGFloat newZoomScale = self.minimumZoomScale * 2;
+      CGFloat xsize = self.bounds.size.width / newZoomScale;
+      CGFloat ysize = self.bounds.size.height / newZoomScale;
+      [self zoomToRect:CGRectMake(touchPoint.x - xsize/2, touchPoint.y - ysize/2, xsize, ysize) animated:YES];
+    }
 	
-	// Delay controls
-	[_photoBrowser hideControlsAfterDelay];
-	
+    // Delay controls
+    [_photoBrowser hideControlsAfterDelay];
 }
 
 // Image View
