@@ -11,12 +11,13 @@
 #import "MWCommon.h"
 #import "MWPhotoBrowserPrivate.h"
 #import "UIImage+MWPhotoBrowser.h"
+#import <FLAnimatedImage/FLAnimatedImage.h>
 
 #define VIDEO_INDICATOR_PADDING 10
 
 @interface MWGridCell () {
     
-    UIImageView *_imageView;
+    FLAnimatedImageView *_imageView;
     UIImageView *_videoIndicator;
     UIImageView *_loadingError;
 	DACircularProgressView *_loadingIndicator;
@@ -35,7 +36,7 @@
         self.backgroundColor = [UIColor colorWithWhite:0.12 alpha:1];
         
         // Image
-        _imageView = [UIImageView new];
+        _imageView = [FLAnimatedImageView new];
         _imageView.frame = self.bounds;
         _imageView.contentMode = UIViewContentModeScaleAspectFill;
         _imageView.clipsToBounds = YES;

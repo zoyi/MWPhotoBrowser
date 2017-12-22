@@ -12,6 +12,7 @@
 #import "MWPhotoBrowserPrivate.h"
 #import "SDImageCache.h"
 #import "UIImage+MWPhotoBrowser.h"
+#import "PanDirectionGestureRecognizer.h"
 
 #define PADDING                  10
 
@@ -189,8 +190,11 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
         swipeGesture.direction = UISwipeGestureRecognizerDirectionDown | UISwipeGestureRecognizerDirectionUp;
         [self.view addGestureRecognizer:swipeGesture];
     }
-    
-	// Super
+  
+    PanDirectionGestureRecognizer *panGesture = [[PanDirectionGestureRecognizer alloc]
+                               init:vertical target:self action:@selector(handlePanGesture:)];
+    [self.view addGestureRecognizer:panGesture];
+  
     [super viewDidLoad];
 	
 }
@@ -1552,6 +1556,23 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
 }
 
 #pragma mark - Misc
+- (void)handlePanGesture:(PanDirectionGestureRecognizer *)gesture {
+  UIView *image = gesture.view;
+  if (image == nil) {
+    return;
+  }
+  
+  CGPoint translation = [gesture translationInView:self.view];
+  image.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
+  
+  CGFloat yFromCenter = image.center.y - CGRectGetMidY(self.view.bounds);
+  CGFloat alpha = 1 - abs(yFromCenter / CGRectGetMidY(self.view.bounds));
+  self.view.backgroundColor = [self.view.backgroundColor colorWithAlphaComponent:alpha];
+  
+  if (gesture.state == UIGestureRecognizerStateEnded) {
+    
+  }
+}
 
 - (void)doneButtonPressed:(id)sender {
     // Only if we're modal and there's a done button

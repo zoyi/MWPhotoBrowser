@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <FLAnimatedImage/FLAnimatedImage.h>
 
 @protocol MWTapDetectingImageViewDelegate;
 
-@interface MWTapDetectingImageView : UIImageView {}
+@interface MWTapDetectingImageView : FLAnimatedImageView {}
 
 @property (nonatomic, weak) id <MWTapDetectingImageViewDelegate> tapDelegate;
 
