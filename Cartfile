@@ -1,3 +1,4 @@
-github "rs/SDWebImage"
+github "rs/SDWebImage" ~> 4.3.0
+github "Flipboard/FLAnimatedImage"
 github "zoyi/DACircularProgress" ~> 2.3.2
 github "jdg/MBProgressHUD" ~> 0.9

@@ -7,7 +7,7 @@ target 'CHPhotoBrowser' do
 
   # Pods for MWPhotoBrowser
   pod 'DACircularProgress', '~> 2.3'
-  pod 'SDWebImage'
+  pod 'SDWebImage' '~> 4.3.0'
   pod 'MBProgressHUD', '~> 0.9'
   pod 'SDWebImage/GIF'
 end
