@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07ECB99EC7DE345454D146F8 /* Pods_CHPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E756CF042BD9F094B504F3 /* Pods_CHPhotoBrowser.framework */; };
+		22542DE8209E0B9C00551F97 /* DACircularProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22542DE7209E0B9C00551F97 /* DACircularProgress.framework */; };
+		22542DEA209E0B9C00551F97 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22542DE9209E0B9C00551F97 /* FLAnimatedImage.framework */; };
+		22542DEC209E0B9C00551F97 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22542DEB209E0B9C00551F97 /* MBProgressHUD.framework */; };
+		22542DEE209E0B9C00551F97 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22542DED209E0B9C00551F97 /* SDWebImage.framework */; };
 		227853E41FB0B0FF0026BCF1 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655F86701E7B8653005A7FC2 /* MWTapDetectingImageView.m */; };
 		227853E51FB0B0FF0026BCF1 /* MWZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655F86741E7B8653005A7FC2 /* MWZoomingScrollView.m */; };
 		227853E61FB0B0FF0026BCF1 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655F86631E7B8653005A7FC2 /* MWCaptionView.m */; };
@@ -71,14 +76,19 @@
 		227854251FB0B0FF0026BCF1 /* ImageSelectedOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F86451E7B8653005A7FC2 /* ImageSelectedOn.png */; };
 		65F726FE1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F726FC1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h */; };
 		65F726FF1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F726FD1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.m */; };
-		8D05D563FA6422BE869FCD05 /* libPods-CHPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B640D19D1DC9B860D493C6 /* libPods-CHPhotoBrowser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05B640D19D1DC9B860D493C6 /* libPods-CHPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DDD209E09F600551F97 /* libFLAnimatedImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFLAnimatedImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DDF209E0A0100551F97 /* libDACircularProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDACircularProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DE1209E0A0100551F97 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DE5209E0A0100551F97 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DE7209E0B9C00551F97 /* DACircularProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DACircularProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DE9209E0B9C00551F97 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DEB209E0B9C00551F97 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22542DED209E0B9C00551F97 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2278542A1FB0B0FF0026BCF1 /* CHPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2278542B1FB0B0FF0026BCF1 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = info.plist; path = /Users/R3alFr3e/Developments/MWPhotoBrowser/info.plist; sourceTree = "<absolute>"; };
-		246A9249F34B8187FA1E264C /* Pods-MWPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWPhotoBrowser/Pods-MWPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		655F86351E7B863F005A7FC2 /* CHPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHPhotoBrowser.h; sourceTree = "<group>"; };
 		655F863E1E7B8653005A7FC2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		655F863F1E7B8653005A7FC2 /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
@@ -145,7 +155,8 @@
 		65F726FD1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanDirectionGestureRecognizer.m; sourceTree = "<group>"; };
 		7113880DD860BCA9000AE844 /* Pods-CHPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHPhotoBrowser/Pods-CHPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		885DD6B06E17AFBD3668EF14 /* Pods-CHPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHPhotoBrowser/Pods-CHPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
-		FE7DC0F5F8A2B866BBD6AD73 /* Pods-MWPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPhotoBrowser/Pods-MWPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		9AE7F31043F13C6EF002086C /* libPods-CHPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E756CF042BD9F094B504F3 /* Pods_CHPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,12 +164,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22542DE8209E0B9C00551F97 /* DACircularProgress.framework in Frameworks */,
+				22542DEA209E0B9C00551F97 /* FLAnimatedImage.framework in Frameworks */,
+				22542DEC209E0B9C00551F97 /* MBProgressHUD.framework in Frameworks */,
+				22542DEE209E0B9C00551F97 /* SDWebImage.framework in Frameworks */,
 				227853EE1FB0B0FF0026BCF1 /* AssetsLibrary.framework in Frameworks */,
 				227853EF1FB0B0FF0026BCF1 /* MediaPlayer.framework in Frameworks */,
 				227853F01FB0B0FF0026BCF1 /* QuartzCore.framework in Frameworks */,
 				227853F11FB0B0FF0026BCF1 /* ImageIO.framework in Frameworks */,
 				227853F21FB0B0FF0026BCF1 /* Foundation.framework in Frameworks */,
-				8D05D563FA6422BE869FCD05 /* libPods-CHPhotoBrowser.a in Frameworks */,
+				07ECB99EC7DE345454D146F8 /* Pods_CHPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,12 +183,21 @@
 		3781158C03AB9B3CBD8DFE5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22542DE7209E0B9C00551F97 /* DACircularProgress.framework */,
+				22542DE9209E0B9C00551F97 /* FLAnimatedImage.framework */,
+				22542DEB209E0B9C00551F97 /* MBProgressHUD.framework */,
+				22542DED209E0B9C00551F97 /* SDWebImage.framework */,
+				22542DDF209E0A0100551F97 /* libDACircularProgress.a */,
+				22542DE1209E0A0100551F97 /* libMBProgressHUD.a */,
+				22542DE5209E0A0100551F97 /* libSDWebImage.a */,
+				22542DDD209E09F600551F97 /* libFLAnimatedImage.a */,
 				655F86B71E7B871E005A7FC2 /* AssetsLibrary.framework */,
 				655F86B51E7B8715005A7FC2 /* MediaPlayer.framework */,
 				655F86B31E7B870D005A7FC2 /* QuartzCore.framework */,
 				655F86B11E7B8704005A7FC2 /* ImageIO.framework */,
 				655F86AF1E7B86EE005A7FC2 /* Foundation.framework */,
-				05B640D19D1DC9B860D493C6 /* libPods-CHPhotoBrowser.a */,
+				9AE7F31043F13C6EF002086C /* libPods-CHPhotoBrowser.a */,
+				A0E756CF042BD9F094B504F3 /* Pods_CHPhotoBrowser.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -282,8 +306,6 @@
 		96F0760C7998A428A168C126 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				246A9249F34B8187FA1E264C /* Pods-MWPhotoBrowser.debug.xcconfig */,
-				FE7DC0F5F8A2B866BBD6AD73 /* Pods-MWPhotoBrowser.release.xcconfig */,
 				7113880DD860BCA9000AE844 /* Pods-CHPhotoBrowser.debug.xcconfig */,
 				885DD6B06E17AFBD3668EF14 /* Pods-CHPhotoBrowser.release.xcconfig */,
 			);
@@ -321,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 227854271FB0B0FF0026BCF1 /* Build configuration list for PBXNativeTarget "CHPhotoBrowser" */;
 			buildPhases = (
+				1A0951C34424E1C6CBEA2DE3 /* [CP] Check Pods Manifest.lock */,
 				227853E31FB0B0FF0026BCF1 /* Sources */,
 				227853ED1FB0B0FF0026BCF1 /* Frameworks */,
 				227853F41FB0B0FF0026BCF1 /* Headers */,
@@ -412,6 +435,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A0951C34424E1C6CBEA2DE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		227853E31FB0B0FF0026BCF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -445,6 +489,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FLAnimatedImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DACircularProgress\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -468,6 +518,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FLAnimatedImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DACircularProgress\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

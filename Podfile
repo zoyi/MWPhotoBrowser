@@ -3,7 +3,7 @@
 
 target 'CHPhotoBrowser' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks!
 
   # Pods for MWPhotoBrowser
   pod 'DACircularProgress', '~> 2.3'
