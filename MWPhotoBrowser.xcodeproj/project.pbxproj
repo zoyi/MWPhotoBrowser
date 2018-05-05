@@ -21,19 +21,19 @@
 		227853F01FB0B0FF0026BCF1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655F86B31E7B870D005A7FC2 /* QuartzCore.framework */; };
 		227853F11FB0B0FF0026BCF1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655F86B11E7B8704005A7FC2 /* ImageIO.framework */; };
 		227853F21FB0B0FF0026BCF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655F86AF1E7B86EE005A7FC2 /* Foundation.framework */; };
-		227853F51FB0B0FF0026BCF1 /* MWZoomingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86731E7B8653005A7FC2 /* MWZoomingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227853F61FB0B0FF0026BCF1 /* MWGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86651E7B8653005A7FC2 /* MWGridCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227853F51FB0B0FF0026BCF1 /* MWZoomingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86731E7B8653005A7FC2 /* MWZoomingScrollView.h */; };
+		227853F61FB0B0FF0026BCF1 /* MWGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86651E7B8653005A7FC2 /* MWGridCell.h */; };
 		227853F71FB0B0FF0026BCF1 /* MWPhotoProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866E1E7B8653005A7FC2 /* MWPhotoProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227853F81FB0B0FF0026BCF1 /* MWPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86691E7B8653005A7FC2 /* MWPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227853F91FB0B0FF0026BCF1 /* MWTapDetectingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866F1E7B8653005A7FC2 /* MWTapDetectingImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227853FA1FB0B0FF0026BCF1 /* MWPhotoBrowserPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866D1E7B8653005A7FC2 /* MWPhotoBrowserPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227853FB1FB0B0FF0026BCF1 /* MWGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86671E7B8653005A7FC2 /* MWGridViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227853F91FB0B0FF0026BCF1 /* MWTapDetectingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866F1E7B8653005A7FC2 /* MWTapDetectingImageView.h */; };
+		227853FA1FB0B0FF0026BCF1 /* MWPhotoBrowserPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866D1E7B8653005A7FC2 /* MWPhotoBrowserPrivate.h */; };
+		227853FB1FB0B0FF0026BCF1 /* MWGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86671E7B8653005A7FC2 /* MWGridViewController.h */; };
 		227853FC1FB0B0FF0026BCF1 /* MWCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86621E7B8653005A7FC2 /* MWCaptionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227853FD1FB0B0FF0026BCF1 /* MWCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86641E7B8653005A7FC2 /* MWCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227853FE1FB0B0FF0026BCF1 /* MWTapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86711E7B8653005A7FC2 /* MWTapDetectingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227853FD1FB0B0FF0026BCF1 /* MWCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86641E7B8653005A7FC2 /* MWCommon.h */; };
+		227853FE1FB0B0FF0026BCF1 /* MWTapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86711E7B8653005A7FC2 /* MWTapDetectingView.h */; };
 		227853FF1FB0B0FF0026BCF1 /* UIImage+MWPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86751E7B8653005A7FC2 /* UIImage+MWPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227854001FB0B0FF0026BCF1 /* MWPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866B1E7B8653005A7FC2 /* MWPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227854011FB0B0FF0026BCF1 /* MWPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86351E7B863F005A7FC2 /* MWPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227854011FB0B0FF0026BCF1 /* CHPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F86351E7B863F005A7FC2 /* CHPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227854031FB0B0FF0026BCF1 /* ImageError@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F86411E7B8653005A7FC2 /* ImageError@3x.png */; };
 		227854041FB0B0FF0026BCF1 /* ImageSelectedSmallOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F864B1E7B8653005A7FC2 /* ImageSelectedSmallOn.png */; };
 		227854051FB0B0FF0026BCF1 /* VideoOverlay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F865F1E7B8653005A7FC2 /* VideoOverlay@3x.png */; };
@@ -69,7 +69,7 @@
 		227854231FB0B0FF0026BCF1 /* UIBarButtonItemGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F865A1E7B8653005A7FC2 /* UIBarButtonItemGrid.png */; };
 		227854241FB0B0FF0026BCF1 /* UIBarButtonItemArrowRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F86591E7B8653005A7FC2 /* UIBarButtonItemArrowRight@3x.png */; };
 		227854251FB0B0FF0026BCF1 /* ImageSelectedOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F86451E7B8653005A7FC2 /* ImageSelectedOn.png */; };
-		65F726FE1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F726FC1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F726FE1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F726FC1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h */; };
 		65F726FF1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F726FD1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.m */; };
 		8D05D563FA6422BE869FCD05 /* libPods-CHPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B640D19D1DC9B860D493C6 /* libPods-CHPhotoBrowser.a */; };
 /* End PBXBuildFile section */
@@ -79,7 +79,7 @@
 		2278542A1FB0B0FF0026BCF1 /* CHPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2278542B1FB0B0FF0026BCF1 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = info.plist; path = /Users/R3alFr3e/Developments/MWPhotoBrowser/info.plist; sourceTree = "<absolute>"; };
 		246A9249F34B8187FA1E264C /* Pods-MWPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWPhotoBrowser/Pods-MWPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
-		655F86351E7B863F005A7FC2 /* MWPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
+		655F86351E7B863F005A7FC2 /* CHPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHPhotoBrowser.h; sourceTree = "<group>"; };
 		655F863E1E7B8653005A7FC2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		655F863F1E7B8653005A7FC2 /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
 		655F86401E7B8653005A7FC2 /* ImageError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@2x.png"; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		655F86341E7B863F005A7FC2 /* MWPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				655F86351E7B863F005A7FC2 /* MWPhotoBrowser.h */,
+				655F86351E7B863F005A7FC2 /* CHPhotoBrowser.h */,
 				2278542B1FB0B0FF0026BCF1 /* info.plist */,
 			);
 			path = MWPhotoBrowser;
@@ -297,20 +297,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227854011FB0B0FF0026BCF1 /* CHPhotoBrowser.h in Headers */,
+				227854001FB0B0FF0026BCF1 /* MWPhotoBrowser.h in Headers */,
+				227853F81FB0B0FF0026BCF1 /* MWPhoto.h in Headers */,
+				227853FC1FB0B0FF0026BCF1 /* MWCaptionView.h in Headers */,
+				227853F71FB0B0FF0026BCF1 /* MWPhotoProtocol.h in Headers */,
+				227853FF1FB0B0FF0026BCF1 /* UIImage+MWPhotoBrowser.h in Headers */,
 				227853F51FB0B0FF0026BCF1 /* MWZoomingScrollView.h in Headers */,
 				227853F61FB0B0FF0026BCF1 /* MWGridCell.h in Headers */,
-				227853F71FB0B0FF0026BCF1 /* MWPhotoProtocol.h in Headers */,
-				227853F81FB0B0FF0026BCF1 /* MWPhoto.h in Headers */,
 				227853F91FB0B0FF0026BCF1 /* MWTapDetectingImageView.h in Headers */,
 				227853FA1FB0B0FF0026BCF1 /* MWPhotoBrowserPrivate.h in Headers */,
 				65F726FE1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h in Headers */,
 				227853FB1FB0B0FF0026BCF1 /* MWGridViewController.h in Headers */,
-				227853FC1FB0B0FF0026BCF1 /* MWCaptionView.h in Headers */,
 				227853FD1FB0B0FF0026BCF1 /* MWCommon.h in Headers */,
 				227853FE1FB0B0FF0026BCF1 /* MWTapDetectingView.h in Headers */,
-				227853FF1FB0B0FF0026BCF1 /* UIImage+MWPhotoBrowser.h in Headers */,
-				227854001FB0B0FF0026BCF1 /* MWPhotoBrowser.h in Headers */,
-				227854011FB0B0FF0026BCF1 /* MWPhotoBrowser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +321,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 227854271FB0B0FF0026BCF1 /* Build configuration list for PBXNativeTarget "CHPhotoBrowser" */;
 			buildPhases = (
-				227853E21FB0B0FF0026BCF1 /* [CP] Check Pods Manifest.lock */,
 				227853E31FB0B0FF0026BCF1 /* Sources */,
 				227853ED1FB0B0FF0026BCF1 /* Frameworks */,
 				227853F41FB0B0FF0026BCF1 /* Headers */,
@@ -412,27 +411,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		227853E21FB0B0FF0026BCF1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CHPhotoBrowser-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		227853E31FB0B0FF0026BCF1 /* Sources */ = {

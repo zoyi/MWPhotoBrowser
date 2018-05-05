@@ -1,0 +1,3 @@
+github "rs/SDWebImage"
+github "zoyi/DACircularProgress" ~> 2.3.2
+github "jdg/MBProgressHUD" ~> 0.9
