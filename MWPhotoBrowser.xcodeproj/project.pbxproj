@@ -73,7 +73,7 @@
 		227854231FB0B0FF0026BCF1 /* UIBarButtonItemGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F865A1E7B8653005A7FC2 /* UIBarButtonItemGrid.png */; };
 		227854241FB0B0FF0026BCF1 /* UIBarButtonItemArrowRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F86591E7B8653005A7FC2 /* UIBarButtonItemArrowRight@3x.png */; };
 		227854251FB0B0FF0026BCF1 /* ImageSelectedOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 655F86451E7B8653005A7FC2 /* ImageSelectedOn.png */; };
-		65C88CB3213D24D2004E66F9 /* MWPhotoBrowserPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866D1E7B8653005A7FC2 /* MWPhotoBrowserPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		65D57C72213E5EA100CB5DA9 /* MWPhotoBrowserPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F866D1E7B8653005A7FC2 /* MWPhotoBrowserPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65F726FE1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F726FC1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.h */; };
 		65F726FF1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F726FD1FB1783A00CD7E42 /* PanDirectionGestureRecognizer.m */; };
 /* End PBXBuildFile section */
@@ -321,7 +321,7 @@
 			files = (
 				227854011FB0B0FF0026BCF1 /* CHPhotoBrowser.h in Headers */,
 				227854001FB0B0FF0026BCF1 /* MWPhotoBrowser.h in Headers */,
-				65C88CB3213D24D2004E66F9 /* MWPhotoBrowserPrivate.h in Headers */,
+				65D57C72213E5EA100CB5DA9 /* MWPhotoBrowserPrivate.h in Headers */,
 				227853F81FB0B0FF0026BCF1 /* MWPhoto.h in Headers */,
 				227853FC1FB0B0FF0026BCF1 /* MWCaptionView.h in Headers */,
 				227853F71FB0B0FF0026BCF1 /* MWPhotoProtocol.h in Headers */,
